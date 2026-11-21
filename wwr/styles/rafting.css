@@ -16,6 +16,7 @@
 body {
     font-family: var(--body-font);
     color: var(--accent-color);
+    background-color: var(--background-color);
 }
 
 header {
@@ -42,6 +43,10 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+}
+
+nav a {
+    color: var(--secondary-color);
 }
 
 .socialmedia a {
@@ -97,6 +102,7 @@ article {
 }
 
 .hero article img {
+    float: right;
     width: 125px;
     height: auto;
 }
